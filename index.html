@@ -7,7 +7,11 @@
     <meta name="description" content="My personal webiste, feel free to reach out to me through provided social media">
     <title>Mateusz Juruś - Web Developer</title>
     <style>
-        @import url('./static/UbuntuCondensed-Regular');
+
+        @font-face {
+            font-family: 'Ubuntu Condensed';
+            src: url('./static/UbuntuCondensed-Regular.ttf');
+        }
 
         * {
             margin: 0;
@@ -23,7 +27,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Ubuntu Condensed', sans-serif;
             text-align: center;
             overflow: hidden;
         }
@@ -39,6 +42,7 @@
         }
 
         .title {
+            font-family: 'Ubuntu Condensed', sans-serif;
             font-size: 52px;
             color: white;
         }
@@ -46,6 +50,7 @@
         .subtitle {
             margin-top: 12px;
             font-size: 32px;
+            font-family: sans-serif;
             color: #ffb0b0;
         }
 
